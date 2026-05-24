@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=ME10
+Description=ME.10 boot splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/me10
+ScriptFile=/usr/share/plymouth/themes/me10/me10.script

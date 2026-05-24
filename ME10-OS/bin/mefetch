@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -e
+if command -v fastfetch >/dev/null 2>&1; then
+  fastfetch --logo-type none
+fi
+cat <<'TXT'
+███╗   ███╗███████╗   ██╗ ██████╗
+████╗ ████║██╔════╝   ██║██╔═████╗
+██╔████╔██║█████╗     ██║██║██╔██║
+██║╚██╔╝██║██╔══╝██   ██║████╔╝██║
+██║ ╚═╝ ██║███████╗╚█████╔╝╚██████╔╝
+╚═╝     ╚═╝╚══════╝ ╚════╝  ╚═════╝
+ME.10 Pro 1.0 | Build 2026.05
+Creator: Mohamed Elbouihi
+TXT
+uname -sr

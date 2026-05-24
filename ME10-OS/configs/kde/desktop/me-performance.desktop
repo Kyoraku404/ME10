@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=ME Performance
+Exec=python3 /opt/me10/apps/me-performance/main.py
+Icon=utilities-system-monitor
+Categories=System;

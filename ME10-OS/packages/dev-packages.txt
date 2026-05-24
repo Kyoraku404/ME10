@@ -1,0 +1,6 @@
+git
+python3
+python3-pyqt6
+pipx
+build-essential
+nodejs

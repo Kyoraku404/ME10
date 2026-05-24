@@ -1,0 +1,9 @@
+plasma-desktop
+sddm
+dolphin
+konsole
+kwin-wayland
+plasma-nm
+plasma-pa
+kdeconnect
+firefox

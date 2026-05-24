@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=ME Settings
+Exec=python3 /opt/me10/apps/me-settings/main.py
+Icon=preferences-system
+Categories=Settings;

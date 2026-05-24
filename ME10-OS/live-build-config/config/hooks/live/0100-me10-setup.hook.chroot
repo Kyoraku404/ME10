@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -e
+chmod +x /opt/me10/scripts/*.sh /usr/local/bin/mefetch || true
+/opt/me10/scripts/install-branding.sh
+/opt/me10/scripts/install-themes.sh
+/opt/me10/scripts/install-apps.sh
+/opt/me10/scripts/optimize-system.sh
+/opt/me10/scripts/setup-gaming.sh
+/opt/me10/scripts/setup-security.sh
+install -d /etc/skel/.config/autostart
+cp /opt/me10/configs/kde/desktop/me-first-boot.desktop /etc/skel/.config/autostart/
+cp /opt/me10/configs/kde/desktop/me-settings.desktop /etc/skel/Desktop/
+cp /opt/me10/configs/kde/desktop/me-gaming-center.desktop /etc/skel/Desktop/
+cp /opt/me10/configs/kde/desktop/me-ai.desktop /etc/skel/Desktop/
+cp /opt/me10/configs/kde/desktop/me-security.desktop /etc/skel/Desktop/
+cp /opt/me10/configs/kde/desktop/me-update-center.desktop /etc/skel/Desktop/
+cp /opt/me10/configs/kde/desktop/me-performance.desktop /etc/skel/Desktop/
+chmod +x /etc/skel/Desktop/*.desktop
