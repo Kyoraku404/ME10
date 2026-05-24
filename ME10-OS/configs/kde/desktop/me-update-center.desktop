@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=ME Update Center
+Exec=python3 /opt/me10/apps/me-update-center/main.py
+Icon=system-software-update
+Categories=System;

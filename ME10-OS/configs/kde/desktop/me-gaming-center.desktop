@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=ME Gaming Center
+Exec=python3 /opt/me10/apps/me-gaming-center/main.py
+Icon=applications-games
+Categories=Game;

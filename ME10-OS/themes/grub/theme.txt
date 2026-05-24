@@ -1,0 +1,10 @@
+desktop-image: "background.png"
+title-text: "ME.10 Pro"
+title-color: "#c8d3ff"
+message-color: "#9ab0ff"
++ boot_menu {
+  left = 20%
+  top = 25%
+  width = 60%
+  height = 50%
+}

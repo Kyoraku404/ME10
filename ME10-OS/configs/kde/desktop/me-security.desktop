@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=ME Security
+Exec=python3 /opt/me10/apps/me-security/main.py
+Icon=security-high
+Categories=Settings;

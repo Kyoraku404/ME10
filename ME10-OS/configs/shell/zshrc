@@ -1,0 +1,5 @@
+export ZSH_THEME="robbyrussell"
+alias me-info='inxi -F'
+alias me-update='sudo apt update && sudo apt upgrade -y'
+alias me-help='echo "Commands: mefetch, me-info, me-update"'
+[ -x /usr/local/bin/mefetch ] && /usr/local/bin/mefetch

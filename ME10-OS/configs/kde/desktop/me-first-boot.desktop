@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=ME10 First Boot
+Exec=/opt/me10/scripts/first-boot.sh
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-after=panel
+NoDisplay=true

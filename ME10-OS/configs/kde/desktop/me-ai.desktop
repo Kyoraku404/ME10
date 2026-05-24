@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=ME AI
+Exec=python3 /opt/me10/apps/me-ai/main.py
+Icon=preferences-desktop-assistive-technology
+Categories=Utility;

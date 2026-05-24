@@ -1,0 +1,8 @@
+linux-image-generic
+linux-firmware
+systemd
+network-manager
+ufw
+flatpak
+plasma-discover-backend-flatpak
+calamares

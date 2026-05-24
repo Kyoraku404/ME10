@@ -1,0 +1,6 @@
+steam-installer
+lutris
+mangohud
+gamemode
+obs-studio
+protonup-qt
